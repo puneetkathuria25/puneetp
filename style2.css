@@ -1,0 +1,70 @@
+@import 'utilities.css';
+:root{
+	--primary:#3dcfd3;
+	--dark:#161616;
+	--pure:#fffff;
+	--ternary:#898989;
+	--light:#f2f2f2;
+}
+body{
+	font-family:'Poppins',sans-serif;
+}
+	*{
+		padding:0;
+		margin:0;
+		box-sizing: border-box;
+		-webkit-font-smoothing:antialiased;
+	}
+header{
+ background:var(--dark); 
+ clip-path:polygon(0 0, 100% 0, 100% 100%, 70% 80%, 0 100%);
+ width: 108%;
+ 
+}
+.container{
+	max-width:1152px;
+	padding:0 15px;
+	margin-left:200px;
+}
+header nav .left a{
+	 color: white;
+	 text-decoration:none;
+	 margin-right:2rem;
+	 text-transform:uppercase;
+	 transition:all .3s ease;
+}
+header nav .left a:hover{
+color:var(--primary)}
+header nav{
+	padding:2rem 0;
+}
+header nav .branding{
+	margin-right:3rem
+}
+.hero .left img{
+	border-radius: 4000px;
+}
+.hero .right{
+	color: white;
+}
+.hero .right h3{
+	font-size: 1.6em;
+	color:var(--primary);
+	margin-left: 100px;
+}
+.hero .right h4{
+	font-size: 1.3em;
+	margin-left: 100px;
+}
+.hero .right btn{
+	margin-left: 100px;
+}
+.last{
+	background:var(--dark); 
+	width: 110%;
+}
+hr{
+	border-top: dotted 13px; border-bottom: 0px; border-left: 0px; border-right: 0px; align: center; width: 30%; color: grey;
+}
+
+	
